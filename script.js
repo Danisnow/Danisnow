@@ -18,6 +18,35 @@
     }
   });
 
+  document.addEventListener('DOMContentLoaded', () => {
+	const video = document.getElementById('myVideo');
+	const playPauseBtn = document.getElementById('playPause');
+	const muteUnmuteBtn = document.getElementById('muteUnmute');
+  
+	// Play/Pause video
+	playPauseBtn.addEventListener('click', () => {
+	  if (video.paused) {
+		video.play();
+		playPauseBtn.textContent = 'Pause';
+	  } else {
+		video.pause();
+		playPauseBtn.textContent = 'Play';
+	  }
+	});
+  
+	// Mute/Unmute video
+	muteUnmuteBtn.addEventListener('click', () => {
+	  if (video.muted) {
+		video.muted = false;
+		muteUnmuteBtn.textContent = 'Mute';
+	  } else {
+		video.muted = true;
+		muteUnmuteBtn.textContent = 'Unmute';
+	  }
+	});
+  });
+  
+
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {

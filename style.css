@@ -81,7 +81,64 @@ body {
     margin-right: 4px;
     overflow: hidden;
   }
-  
+  /* Image styling */
+.about-img {
+  text-align: center; /* Center the image within its container */
+  margin-bottom: 2rem;
+}
+
+.about-img img {
+  border-radius: 50%; /* Make the image circular */
+  max-width: 100%; /* Ensure the image does not exceed the width of its container */
+  height: 200px; /* Maintain the aspect ratio */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Responsive image styling */
+@media (min-width: 768px) {
+  .about-img img {
+    max-width: 75%; /* Reduce the width slightly for larger screens */
+  }
+}
+/* Video Section */
+.video-section {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f5f5f5;
+}
+
+.video-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-container video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.video-controls {
+  margin-top: 1rem;
+}
+
+.video-controls button {
+  background-color: #f0642d;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.video-controls button:hover {
+  background-color: #db4a10;
+}
+
+
   .bg-image {
     background-repeat: no-repeat;
     background-attachment: fixed;
