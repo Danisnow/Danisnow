@@ -11,10 +11,15 @@ My Current Learning Journey
 I’m currently enhancing my skills in a variety of programming languages and technologies:
 
 Python: For its powerful applications in data science and machine learning.
+
 Java: Focusing on building robust, scalable applications.
+
 PHP: To create dynamic, interactive websites.
+
 C#: Diving into game development and desktop applications.
+
 HTML & CSS: Crafting engaging and responsive user interfaces.
+
 SQL: Managing and manipulating databases efficiently.
 Collaboration Opportunities
 
